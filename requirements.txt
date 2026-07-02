@@ -2,3 +2,4 @@ streamlit
 deep-translator
 pyperclip
 gTTS
+edge-tts

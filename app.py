@@ -43,7 +43,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Center Logo
-st.image("assets/logo.png", width=120)
+st.image("logo.png", width=120)
 
 # Center Title
 st.markdown(

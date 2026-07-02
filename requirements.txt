@@ -2,3 +2,4 @@ streamlit
 deep-translator
 pyperclip
 streamlit-mic-recorder
+SpeechRecognition

@@ -1,0 +1,59 @@
+/* Background */
+.stApp {
+    background: linear-gradient(135deg, #0B1026, #111827);
+    color: white;
+}
+
+/* Hide Streamlit Menu & Footer */
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(90deg,#3B82F6,#60A5FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    text-align: center;
+    color: #B0B8C5;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(90deg,#2563EB,#3B82F6);
+}
+
+.stButton > button:hover{
+    background: linear-gradient(90deg,#1D4ED8,#2563EB);
+}
+
+/* Text Areas */
+textarea{
+    border-radius:15px !important;
+}
+
+/* Select Boxes */
+div[data-baseweb="select"]{
+    border-radius:15px;
+}
+img{
+    display:block;
+    margin:auto;
+}
